@@ -4,9 +4,8 @@
         printf("Cima\n"); // imprenssão do movimento
     }
     // Mover a Torre 2 casas para direita
-    for (int i = 0;i < 2 ; i++){
+    for (int i = 0;i < 2; i++){
         printf("Direita\n"); // imprenssão do movimento
-    
     }
-    return 0;
- }
+     return 0;
+}
