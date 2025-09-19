@@ -1,14 +1,14 @@
  int main() {
-    // Mover a Torre 3 casa para cima
-    for (int i = 0;i < 3; i++) {
-        printf ("Cima\n"); // imprenssão do movimento
+   int movimentoCompleto = 1; // Flag para controlar o movimento em 'L'
+
+   while (movimentoCompleto--)
+   {
+    for (int i = 0; i < 3; i++){
+        printf("Cima\n"); // Imprime "Cima" três vezes
     }
-    // Mover a Torre 2 casas para direita
-    for (int i = 0;i < 2; i++){
-        printf ("Direita\n"); // imprenssão do movimento
-    }
-     return 0;
+    printf("Esquerda\n"); // Impreime "Esquerda" uma vez
+    
 }
-
-
-
+    
+ return 0;
+}
